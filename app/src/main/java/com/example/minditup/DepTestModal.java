@@ -1,6 +1,7 @@
 package com.example.minditup;
 
 public class DepTestModal {
+    private int id;
     private String question;
     private String option1;
     private String option2;
@@ -9,14 +10,22 @@ public class DepTestModal {
     private String option5;
 
 
-    public DepTestModal(String question, String option1, String option2, String option3, String option4, String option5) {
+    public DepTestModal(int id, String question, String option1, String option2, String option3, String option4, String option5) {
+        this.id = id;
         this.question = question;
         this.option1 = option1;
         this.option2 = option2;
         this.option3 = option3;
         this.option4 = option4;
         this.option5 = option5;
+    }
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getQuestion() {
@@ -66,5 +75,4 @@ public class DepTestModal {
     public void setOption5(String option5) {
         this.option5 = option5;
     }
-
 }
