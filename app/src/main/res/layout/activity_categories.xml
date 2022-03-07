@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Categories"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_arrow_back_24"
+                android:padding="15dp"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/arimo"
+            android:padding="10dp"
+            android:text="@string/pick"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Tell"
+            android:textSize="20sp"
+            android:fontFamily="@font/arimo"
+            android:padding="10dp"/>
+
+        <RelativeLayout
+            android:id="@+id/depressed"
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:layout_margin="10dp"
+            android:background="#346abc">
+
+            <TextView
+                android:id="@+id/deptext"
+                android:layout_width="220dp"
+                android:layout_height="125dp"
+                android:layout_alignParentEnd="true"
+                android:fontFamily="@font/antic"
+                android:gravity="center"
+                android:text="@string/Depression"
+                android:textSize="25sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:layout_margin="10dp"
+            android:background="#346abc">
+
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="125dp"
+                android:fontFamily="@font/antic"
+                android:text="@string/Stress"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:layout_alignParentEnd="true" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:background="#346abc">
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="125dp"
+                    android:layout_alignParentEnd="true"
+                    android:fontFamily="@font/antic"
+                    android:gravity="center"
+                    android:text="@string/Anxiety"
+                    android:textSize="25sp" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:layout_margin="10dp"
+            android:background="#346abc">
+
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="125dp"
+                android:layout_alignParentEnd="true"
+                android:fontFamily="@font/antic"
+                android:gravity="center"
+                android:text="@string/Sleep"
+                android:textSize="25sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:layout_margin="10dp"
+            android:background="#346abc">
+
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="125dp"
+                android:layout_alignParentEnd="true"
+                android:fontFamily="@font/antic"
+                android:gravity="center"
+                android:text="@string/Anger"
+                android:textSize="25sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:layout_margin="10dp"
+            android:background="#346abc">
+
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="125dp"
+                android:fontFamily="@font/antic"
+                android:text="@string/Happy"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>
