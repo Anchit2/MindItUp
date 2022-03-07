@@ -21,6 +21,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        getSupportActionBar().hide();
+
         bottomNavigation = findViewById(R.id.bottomNavigation);
 
         bottomNavigation.add(new MeowBottomNavigation.Model(1, R.drawable.ic_home));
