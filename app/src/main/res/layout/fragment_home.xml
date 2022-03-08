@@ -47,37 +47,37 @@
 
 
                         <ImageView
-                            android:id="@+id/imageView"
+                            android:id="@+id/mt1"
                             android:layout_width="70dp"
                             android:layout_height="70dp"
-                            android:layout_alignTop="@+id/imageView2"
+                            android:layout_alignTop="@+id/mt2"
                             android:layout_alignParentStart="true"
                             android:layout_marginStart="18dp"
                             android:layout_marginTop="-1dp"
                             android:src="@drawable/emojis4" />
 
                         <ImageView
-                            android:id="@+id/imageView2"
+                            android:id="@+id/mt2"
                             android:layout_width="70dp"
                             android:layout_height="70dp"
-                            android:layout_alignTop="@+id/imageView3"
+                            android:layout_alignTop="@+id/mt3"
                             android:layout_alignParentStart="true"
                             android:layout_marginStart="114dp"
                             android:layout_marginTop="0dp"
                             android:src="@drawable/emojis7" />
 
                         <ImageView
-                            android:id="@+id/imageView3"
+                            android:id="@+id/mt3"
                             android:layout_width="70dp"
                             android:layout_height="70dp"
-                            android:layout_alignTop="@+id/imageView4"
+                            android:layout_alignTop="@+id/mt4"
                             android:layout_alignParentEnd="true"
                             android:layout_marginTop="2dp"
                             android:layout_marginEnd="110dp"
                             android:src="@drawable/emojis1" />
 
                         <ImageView
-                            android:id="@+id/imageView4"
+                            android:id="@+id/mt4"
                             android:layout_width="70dp"
                             android:layout_height="70dp"
                             android:layout_alignParentTop="true"
@@ -87,21 +87,21 @@
                             android:src="@drawable/emojis6" />
 
                         <ImageView
-                            android:id="@+id/imageView5"
+                            android:id="@+id/mt5"
                             android:layout_width="70dp"
                             android:layout_height="70dp"
-                            android:layout_alignStart="@+id/imageView"
-                            android:layout_alignTop="@+id/imageView6"
+                            android:layout_alignStart="@+id/mt1"
+                            android:layout_alignTop="@+id/mt6"
                             android:layout_marginStart="3dp"
                             android:layout_marginTop="1dp"
                             android:src="@drawable/emojis2" />
 
                         <ImageView
-                            android:id="@+id/imageView6"
+                            android:id="@+id/mt6"
                             android:layout_width="70dp"
                             android:layout_height="70dp"
-                            android:layout_alignStart="@+id/imageView2"
-                            android:layout_alignTop="@+id/imageView7"
+                            android:layout_alignStart="@+id/mt2"
+                            android:layout_alignTop="@+id/mt7"
                             android:layout_alignParentEnd="true"
                             android:layout_marginStart="-2dp"
                             android:layout_marginTop="0dp"
@@ -109,11 +109,11 @@
                             android:src="@drawable/emojis8" />
 
                         <ImageView
-                            android:id="@+id/imageView7"
+                            android:id="@+id/mt7"
                             android:layout_width="70dp"
                             android:layout_height="70dp"
-                            android:layout_alignStart="@+id/imageView3"
-                            android:layout_alignTop="@+id/imageView8"
+                            android:layout_alignStart="@+id/mt3"
+                            android:layout_alignTop="@+id/mt8"
                             android:layout_alignParentEnd="true"
                             android:layout_marginStart="0dp"
                             android:layout_marginTop="0dp"
@@ -121,10 +121,10 @@
                             android:src="@drawable/emojis3" />
 
                         <ImageView
-                            android:id="@+id/imageView8"
+                            android:id="@+id/mt8"
                             android:layout_width="70dp"
                             android:layout_height="70dp"
-                            android:layout_alignStart="@+id/imageView4"
+                            android:layout_alignStart="@+id/mt4"
                             android:layout_alignParentEnd="true"
                             android:layout_alignParentBottom="true"
                             android:layout_marginStart="-4dp"
