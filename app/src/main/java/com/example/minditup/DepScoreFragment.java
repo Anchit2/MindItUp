@@ -22,7 +22,7 @@ import java.util.ArrayList;
 
 public class DepScoreFragment extends Fragment {
     private PieChart pieChart;
-    TextView scoretext;
+    private TextView scoretext;
 
 
     @Override
@@ -36,12 +36,23 @@ public class DepScoreFragment extends Fragment {
 
         pieChart = (PieChart) v.findViewById(R.id.activity_main_piechart);
         setupPieChart();
-        loadPieChartData();
-        TextView textView = (TextView)v.findViewById(R.id.textView);
-        scoretext= (TextView)v.findViewById(R.id.scoretext);
 
         Bundle bundle = new Bundle();
         bundle=getArguments();
+        int lse = bundle.getInt("low_self_esteme");
+        int lof = bundle.getInt("lack_of_focus");
+        int li = bundle.getInt("low_interest");
+        int fat = bundle.getInt("fatigue");
+        int anx = bundle.getInt("anxiety");
+        int nt = bundle.getInt("netative_thoughts");
+        int score = bundle.getInt("currentscore");
+
+        loadPieChartData(lse,lof,li,fat,anx,nt);
+        scoretext=v.findViewById(R.id.scoretext);
+//        scoretext.setText(score);
+
+//        Bundle bundle = new Bundle();
+//        bundle=getArguments();
 
 
         return v;
@@ -66,17 +77,7 @@ public class DepScoreFragment extends Fragment {
         l.setEnabled(false);
     }
 
-    private void loadPieChartData() {
-        Bundle bundle = new Bundle();
-        bundle=getArguments();
-        int lse = bundle.getInt("low_self_esteme");
-        int lof = bundle.getInt("lack_of_focus");
-        int li = bundle.getInt("low_interest");
-        int fat = bundle.getInt("fatigue");
-        int anx = bundle.getInt("anxiety");
-        int nt = bundle.getInt("netative_thoughts");
-        int score = bundle.getInt("currentscore");
-        scoretext.setText(score);
+    private void loadPieChartData(int lse,int lof,int li,int fat ,int anx,int nt) {
 
         ArrayList<PieEntry> entries = new ArrayList<>();
         entries.add(new PieEntry(lse, "Low Self Esteme"));

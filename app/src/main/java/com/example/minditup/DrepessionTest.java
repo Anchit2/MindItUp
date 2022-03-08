@@ -59,7 +59,7 @@ private ArrayList<DepTestModal> depTestModalArrayList;
             @Override
             public void onClick(View v) {
                 max_score=4;
-                currentScore+=4;
+                currentScore=currentScore+max_score;
                 questionAttempted++;
 
                 if(currentPos==6)
@@ -86,7 +86,7 @@ private ArrayList<DepTestModal> depTestModalArrayList;
             @Override
             public void onClick(View v) {
                 max_score=3;
-                currentScore+=3;
+                currentScore=currentScore+max_score;
                 questionAttempted++;
 
                 if(currentPos==6)
@@ -112,7 +112,7 @@ private ArrayList<DepTestModal> depTestModalArrayList;
             @Override
             public void onClick(View v) {
                 max_score=2;
-                currentScore+=2;
+                currentScore=currentScore+max_score;
                 questionAttempted++;
 
                 if(currentPos==6)
@@ -138,7 +138,7 @@ private ArrayList<DepTestModal> depTestModalArrayList;
             @Override
             public void onClick(View v) {
                 max_score=1;
-                currentScore++;
+                currentScore= currentScore+max_score;
                 questionAttempted++;
 
                 if(currentPos==6)
@@ -165,6 +165,7 @@ private ArrayList<DepTestModal> depTestModalArrayList;
             @Override
             public void onClick(View v) {
                 max_score=0;
+                currentScore= currentScore+0;
                 questionAttempted++;
 
                 if(currentPos==6)
@@ -195,6 +196,7 @@ private ArrayList<DepTestModal> depTestModalArrayList;
 
         questionNumber.setText(questionAttempted + "/12"+"questions answered");
         if(questionAttempted > 12){
+            currentScore = 5;
             DepScoreFragment dsp= new DepScoreFragment();
             Bundle bundle= new Bundle();
             bundle.putInt("currentscore",currentScore);

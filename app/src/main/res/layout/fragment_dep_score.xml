@@ -40,14 +40,9 @@
             </com.github.mikephil.charting.charts.PieChart>
 
             <TextView
-                android:id="@+id/scoretext"
-                android:layout_width="255dp"
-                android:layout_height="33dp"
-                android:layout_margin="15dp"
-                android:fontFamily="@font/antic"
-                android:text="TextView"
-                android:textColor="#0E0D0D"
-                android:textSize="20dp" />
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:id="@+id/scoretext" />
 
 
         </LinearLayout>
