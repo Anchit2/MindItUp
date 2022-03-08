@@ -206,8 +206,8 @@ private ArrayList<DepTestModal> depTestModalArrayList;
             bundle.putInt("netative_thoughts",netative_thoughts);
             dsp.setArguments(bundle);
             FragmentTransaction ft= getFragmentManager().beginTransaction();
-            ft.add(R.id.depressed_FrameLayout,dsp);
-            ft.replace(R.id.depressed_FrameLayout,new DepScoreFragment());
+//            FragmentTransaction.addToBackStack(null);
+            ft.replace(R.id.depressed_FrameLayout,dsp);
             ft.commit();
 //            Todo:
         }else{
