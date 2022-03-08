@@ -3,14 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DepressionGetStarted"
+    tools:context=".RelationGetStarted"
     android:background="#a1b2c3">
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/depressiongs"/>
+        android:src="@drawable/happylifegs"/>
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -31,7 +31,7 @@
                 android:layout_marginRight="15dp"
                 android:layout_alignParentEnd="true"
                 android:fontFamily="@font/lato"
-                android:text="You are not alone in your situation."
+                android:text="We will try to understand your situation"
                 android:textColor="#000000"
                 android:textSize="25sp" />
 
@@ -42,7 +42,7 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
                 android:layout_alignParentEnd="true"
-                android:text="We realise how difficult it is to live with depression. We, on the other hand, are here to change things."
+                android:text="Relation issue of any type can be hard to handle. We are here for you."
                 android:textColor="#2d2f30"
                 android:fontFamily="sans-serif-light"
                 android:textSize="17sp" />
@@ -60,7 +60,7 @@
                 android:textSize="17sp" />
 
             <Button
-                android:id="@+id/startDepAssessment"
+                android:id="@+id/startRelAssessment"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="250dp"

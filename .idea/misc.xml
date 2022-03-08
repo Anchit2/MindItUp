@@ -18,16 +18,25 @@
         <entry key="..\:/Apps/MindItUp/app/src/main/res/drawable/testbtn.xml" value="0.2526041666666667" />
         <entry key="..\:/Apps/MindItUp/app/src/main/res/drawable/view_bg.xml" value="0.24351851851851852" />
         <entry key="..\:/Apps/MindItUp/app/src/main/res/font/.xml" value="0.26666666666666666" />
+        <entry key="..\:/Apps/MindItUp/app/src/main/res/layout/activity_angry.xml" value="0.23645833333333333" />
+        <entry key="..\:/Apps/MindItUp/app/src/main/res/layout/activity_anxiety.xml" value="0.23645833333333333" />
         <entry key="..\:/Apps/MindItUp/app/src/main/res/layout/activity_categories.xml" value="0.264" />
         <entry key="..\:/Apps/MindItUp/app/src/main/res/layout/activity_depressed.xml" value="0.23645833333333333" />
+        <entry key="..\:/Apps/MindItUp/app/src/main/res/layout/activity_relation.xml" value="0.22239583333333332" />
+        <entry key="..\:/Apps/MindItUp/app/src/main/res/layout/activity_sleep.xml" value="0.22239583333333332" />
         <entry key="..\:/Apps/MindItUp/app/src/main/res/layout/activity_splash.xml" value="0.24010416666666667" />
+        <entry key="..\:/Apps/MindItUp/app/src/main/res/layout/activity_stress.xml" value="0.23645833333333333" />
         <entry key="..\:/Apps/MindItUp/app/src/main/res/layout/fragment_activity.xml" value="0.23645833333333333" />
+        <entry key="..\:/Apps/MindItUp/app/src/main/res/layout/fragment_angry_get_started.xml" value="0.23645833333333333" />
         <entry key="..\:/Apps/MindItUp/app/src/main/res/layout/fragment_anxiety_get_started.xml" value="0.23645833333333333" />
         <entry key="..\:/Apps/MindItUp/app/src/main/res/layout/fragment_dep_score.xml" value="0.23645833333333333" />
-        <entry key="..\:/Apps/MindItUp/app/src/main/res/layout/fragment_depression_get_started.xml" value="0.2" />
+        <entry key="..\:/Apps/MindItUp/app/src/main/res/layout/fragment_depression_get_started.xml" value="0.1" />
         <entry key="..\:/Apps/MindItUp/app/src/main/res/layout/fragment_drepession_test.xml" value="0.264" />
         <entry key="..\:/Apps/MindItUp/app/src/main/res/layout/fragment_happy_get_started.xml" value="0.23645833333333333" />
         <entry key="..\:/Apps/MindItUp/app/src/main/res/layout/fragment_home.xml" value="0.23645833333333333" />
+        <entry key="..\:/Apps/MindItUp/app/src/main/res/layout/fragment_relation_get_started.xml" value="0.23645833333333333" />
+        <entry key="..\:/Apps/MindItUp/app/src/main/res/layout/fragment_sleep_get_started.xml" value="0.23645833333333333" />
+        <entry key="..\:/Apps/MindItUp/app/src/main/res/layout/fragment_stress_get_started.xml" value="0.23645833333333333" />
       </map>
     </option>
   </component>
