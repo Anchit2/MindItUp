@@ -10,22 +10,26 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MindItUp">
         <activity
-            android:name=".DepressedActivity"
-            android:exported="false" />
-        <activity
-            android:name=".Categories"
-            android:exported="true" >
+            android:name=".Splash"
+            android:exported="true">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
         <activity
+            android:name=".DepressedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Categories"
+            android:exported="false"/>
+
+        <activity
             android:name=".MainActivity"
-            android:exported="false">
-        </activity>
+            android:exported="false"/>
 
         <meta-data
             android:name="preloaded_fonts"

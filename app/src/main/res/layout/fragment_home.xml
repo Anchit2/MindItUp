@@ -84,7 +84,7 @@
                             android:layout_alignParentEnd="true"
                             android:layout_marginTop="15dp"
                             android:layout_marginEnd="21dp"
-                            android:src="@drawable/anxiety" />
+                            android:src="@drawable/emojis6" />
 
                         <ImageView
                             android:id="@+id/imageView5"

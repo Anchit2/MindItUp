@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Categories"
-    android:background="#F5F5F5">
+    android:background="#f2fafd">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -48,7 +48,12 @@
             android:layout_width="match_parent"
             android:layout_height="125dp"
             android:layout_margin="10dp"
-            android:background="#346abc">
+            android:background="@drawable/deprc">
+
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="125dp"
+                android:src="@drawable/depression"/>
 
             <TextView
                 android:id="@+id/deptext"
@@ -66,7 +71,12 @@
             android:layout_width="match_parent"
             android:layout_height="125dp"
             android:layout_margin="10dp"
-            android:background="#346abc">
+            android:background="@drawable/stressrc">
+
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="125dp"
+                android:src="@drawable/stress"/>
 
             <TextView
                 android:layout_width="220dp"
@@ -77,10 +87,18 @@
                 android:textSize="25sp"
                 android:layout_alignParentEnd="true" />
 
-            <RelativeLayout
+        </RelativeLayout>
+
+        <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="125dp"
-                android:background="#346abc">
+                android:layout_margin="10dp"
+                android:background="@drawable/anxietyrc">
+
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="125dp"
+                    android:src="@drawable/anxiety"/>
 
                 <TextView
                     android:layout_width="220dp"
@@ -93,13 +111,16 @@
 
             </RelativeLayout>
 
-        </RelativeLayout>
-
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="125dp"
             android:layout_margin="10dp"
-            android:background="#346abc">
+            android:background="@drawable/deprc">
+
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="125dp"
+                android:src="@drawable/sleep"/>
 
             <TextView
                 android:layout_width="220dp"
@@ -116,7 +137,12 @@
             android:layout_width="match_parent"
             android:layout_height="125dp"
             android:layout_margin="10dp"
-            android:background="#346abc">
+            android:background="@drawable/angryrc">
+
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="125dp"
+                android:src="@drawable/angry"/>
 
             <TextView
                 android:layout_width="220dp"
@@ -133,13 +159,18 @@
             android:layout_width="match_parent"
             android:layout_height="125dp"
             android:layout_margin="10dp"
-            android:background="#346abc">
+            android:background="@drawable/happyliferc">
+
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="125dp"
+                android:src="@drawable/happylife"/>
 
             <TextView
                 android:layout_width="220dp"
                 android:layout_height="125dp"
                 android:fontFamily="@font/antic"
-                android:text="@string/Happy"
+                android:text="@string/Relationships"
                 android:gravity="center"
                 android:textSize="25sp"
                 android:layout_alignParentEnd="true" />

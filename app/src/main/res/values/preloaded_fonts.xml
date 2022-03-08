@@ -4,5 +4,7 @@
         <item>@font/acme</item>
         <item>@font/antic</item>
         <item>@font/arimo</item>
+        <item>@font/lato</item>
+        <item>@font/lato_black</item>
     </array>
 </resources>
