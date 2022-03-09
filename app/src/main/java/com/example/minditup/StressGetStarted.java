@@ -30,7 +30,7 @@ public class StressGetStarted extends Fragment {
             @Override
             public void onClick(View view) {
                 FragmentTransaction ft= getFragmentManager().beginTransaction();
-                ft.replace(R.id.stress_FrameLayout,new DrepessionTest());
+                ft.replace(R.id.stress_FrameLayout,new StressTest());
                 ft.commit();
             }
         });
