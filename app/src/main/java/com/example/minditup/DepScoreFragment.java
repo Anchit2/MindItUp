@@ -49,6 +49,15 @@ public class DepScoreFragment extends Fragment {
 
         loadPieChartData(lse,lof,li,fat,anx,nt);
         scoretext=v.findViewById(R.id.scoretext);
+//        Button depscorehomebtn = v.findViewById(R.id.depscorehomebtn);
+//        depscorehomebtn.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+////                FragmentTransaction ft= getFragmentManager().beginTransaction();
+////                ft.replace(R.id.depressed_FrameLayout,new HomeFragment());
+////                ft.commit();
+//            }
+//        });
 //        scoretext.setText(score);
 
 //        Bundle bundle = new Bundle();

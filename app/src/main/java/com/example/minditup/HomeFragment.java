@@ -28,7 +28,7 @@ public class HomeFragment extends Fragment {
         mt1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(getActivity(), Mood_Tracker_Data_Entry.class);
+                Intent i = new Intent(getActivity(),Demo_entry.class);
                 startActivity(i);
             }
         });
